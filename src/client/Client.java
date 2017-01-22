@@ -3,12 +3,25 @@ package client;
 import java.io.IOException;
 import java.net.Socket;
 
+/**
+ * Client.
+ */
 public class Client {
 
+    /**
+     * Port to the server.
+     */
     private static final int SERVER_PORT = 4000;
 
+    /**
+     * Address of the server.
+     */
     private static final String SERVER_ADDRESS = "localhost";
 
+    /**
+     * Backbone of a client.
+     * @param args Arguments.
+     */
     public static void main(String[] args) {
         Socket socket;
 
